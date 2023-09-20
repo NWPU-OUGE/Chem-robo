@@ -1,10 +1,10 @@
 home:
   url: ""
-  title: Home
+  title: 概览页
   icon: home
 
 base:
-  title: Interface
+  title: 交互接口
   icon: package
   columns: 2
   children:
@@ -183,12 +183,12 @@ base:
 
 forms:
   url: form-elements.html
-  title: Forms
-  title-long: Form elements
+  title: 报表
+  title-long: 报表项目
   icon: checkbox
 
 extra:
-  title: Extra
+  title: 其他功能
   icon: star
   columns: 2
   children:
@@ -274,7 +274,7 @@ extra:
 
 layout:
   icon: layout-2
-  title: Layout
+  title: 布局
   columns: 2
   children:
     horizontal:
@@ -319,30 +319,30 @@ layout:
       title: Fluid vertical
 
 icons:
-  title: "%ICONS_COUNT% icons"
+  title: "%ICONS_COUNT% 图标概览（调试用）"
   icon: ghost
   url: icons.html
 
 emails:
-  title: "Email templates"
+  title: "邮件相关"
   icon: mail-opened
   url: emails.html
 
 help:
-  title: Help
+  title: 请求帮助
   icon: lifebuoy
   children:
     docs:
-      title: Documentation
+      title: 网站文档
       url: https://tabler.io/docs
     changelog:
       url: changelog.html
-      title: Changelog
+      title: 网站更新日志
     source-code:
       url: https://github.com/tabler/tabler
-      title: Source code
+      title: 网站源代码
     sponsor:
       color: pink
-      icon: heart
+      icon: phone-outgoing
       url: https://github.com/sponsors/codecalm
-      title: Sponsor project!
+      title: 联系管理员

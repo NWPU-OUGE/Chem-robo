@@ -12,16 +12,16 @@ keep_files:
 use-iconfont: false
 rtl: false
 
-title: Tabler
-description: Premium and Open Source dashboard template with responsive and high quality UI.
+title: 西安重德瀚海工业科技有限公司
+description: 西安重德瀚海工业科技有限公司为上海化工所巡检机器人项目所构建的仪表盘.
 theme-color: "#0054a6"
 
-email: support@tabler.io
-homepage: https://tabler.io
-github-url: https://github.com/tabler/tabler
-github-sponsors-url: https://github.com/sponsors/codecalm
-changelog-url: https://github.com/tabler/tabler/releases
-sponsor-url: https://github.com/sponsors/codecalm
+email: ttyatnpu@mail.nwpu.edu.cn
+homepage: https://ougeblog.pages.dev/
+github-url: https://github.com/NWPU-OUGE/#/
+github-sponsors-url: https://github.com/NWPU-OUGE/#/
+changelog-url: https://github.com/NWPU-OUGE/Chem-robo#/
+sponsor-url: https://github.com/NWPU-OUGE/#/
 preview-url: https://tabler.io/demo
 docs-url: https://tabler.io/docs
 
