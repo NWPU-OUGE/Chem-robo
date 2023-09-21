@@ -47,7 +47,7 @@ base:
         2-step-verification-code:
           title: pin码2步验证
           url: 2-step-verification-code.html
-          
+
 forms:
   url: form-elements.html
   title: 报表
@@ -62,7 +62,7 @@ extra:
 
 layout:
   icon: layout-2
-  title: 布局
+  title: 布局(测试用，即将去除)
   columns: 2
   children:
     horizontal:
@@ -122,15 +122,15 @@ help:
   children:
     docs:
       title: 网站文档
-      url: https://tabler.io/docs
+      #url: https://tabler.io/docs
     changelog:
-      url: changelog.html
+      #url: changelog.html
       title: 网站更新日志
     source-code:
-      url: https://github.com/tabler/tabler
+      #url: https://github.com/tabler/tabler
       title: 网站源代码
     sponsor:
       color: pink
       icon: phone-outgoing
-      url: https://github.com/sponsors/codecalm
+      url: https://github.com/NWPU-OUGE/Chem-robo#/
       title: 联系管理员
