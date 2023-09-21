@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-
+gem 'Liquid', '>= 4.0.4'
 gem "jekyll", "4.3.1"
 group :jekyll_plugins do
 	gem "jekyll-random"
