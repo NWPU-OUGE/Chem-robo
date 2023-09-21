@@ -1,3 +1,39 @@
+- uri: O2
+  visitors: 40
+  unique: 100
+  bounce: 40%
+  data: 17, 24, 20, 10, 5, 1, 4, 18, 13
+
+- uri: NO2
+  visitors: 90
+  unique: 100
+  bounce: 90%
+  data: 17, 24, 20, 10, 5, 1, 4, 18, 13
+
+- uri: TVOC
+  visitors: 10
+  unique: 100
+  bounce: 10%
+  data: 17, 24, 20, 10, 5, 1, 4, 18, 13
+
+- uri: SO2
+  visitors: 30
+  unique: 100
+  bounce: 30%
+  data: 17, 24, 20, 10, 5, 1, 4, 18, 13
+
+- uri: CO
+  visitors: 110
+  unique: 100
+  bounce: 110%
+  data: 17, 24, 20, 10, 5, 1, 4, 18, 13
+
+- uri: CO2
+  visitors: 230
+  unique: 100
+  bounce: 230%
+  data: 17, 24, 20, 10, 5, 1, 4, 18, 13
+
 - uri: /
   visitors: 4896
   unique: 3654

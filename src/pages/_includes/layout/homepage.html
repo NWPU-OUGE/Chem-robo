@@ -16,16 +16,16 @@
 	<div class="col-12">
 		<div class="row row-cards">
 			<div class="col-sm-6 col-lg-3">
-				{% include cards/small-stats.html color="primary" icon="currency-dollar" title="132 Sales" description="12 waiting payments" %}
+				{% include cards/small-stats.html color="primary" icon="location" title="已巡查 5 处" description="尚有 12 处未巡查完毕" %}
 			</div>
 			<div class="col-sm-6 col-lg-3">
-				{% include cards/small-stats.html color="green" icon="shopping-cart" title="78 Orders" description="32 shipped" %}
+				{% include cards/small-stats.html color="green" icon="photo-sensor-2" title="13 传感器在线" description="共 13 传感器" %}
 			</div>
 			<div class="col-sm-6 col-lg-3">
-				{% include cards/small-stats.html icon="brand-twitter" color="twitter" title="623 Shares" description="16 today" %}
+				{% include cards/small-stats.html icon="circuit-motor" color="twitter" title="25 次启动" description="今日启动 3 次" %}
 			</div>
 			<div class="col-sm-6 col-lg-3">
-				{% include cards/small-stats.html icon="brand-facebook" color="facebook" title="132 Likes" description="21 today" %}
+				{% include cards/small-stats.html icon="zoom-check" color="facebook" title="已运行 5 天" description="距离下次检修日 598 天" %}
 			</div>
 		</div>
 	</div>
@@ -33,102 +33,93 @@
 	<div class="col-lg-6">
 		<div class="card">
 			<div class="card-body">
-				<h3 class="card-title">Traffic summary</h3>
+				<h3 class="card-title">网络流量监控</h3>
 				{% include ui/chart.html chart-id="mentions" size="lg" legend=true %}
 			</div>
 		</div>
 	</div>
 
 	<div class="col-lg-6">
-		{% include cards/map-vector.html title="Locations" %}
+		{% include cards/map-vector.html title="主相机影像" %}
 	</div>
-
-	{% comment %}
-	<div class="col-lg-6">
-		<div class="row row-cards">
-			<div class="col-12">
-			</div>
-
-			<div class="col-sm-4">
-				{% include cards/small-stats-3.html number=43 title="New Tickets" percentage=6 %}
-			</div>
-			<div class="col-sm-4">
-				{% include cards/small-stats-3.html number=95 number-prefix="$" title="Daily Earnings" percentage=-2 %}
-			</div>
-			<div class="col-sm-4">
-				{% include cards/small-stats-3.html number=7 title="New Replies" percentage=9 %}
-			</div>
-		</div>
-	</div>
-	{% endcomment %}
-
 	<div class="col-lg-6">
 		<div class="row row-cards">
 			<div class="col-12">
 				<div class="card">
 					<div class="card-body">
-						<p class="mb-3">Using Storage <strong>6854.45 MB </strong>of 8 GB</p>
+						<p class="mb-3">已使用内存 <strong>6854.45 MB </strong>共 8 GB</p>
 						<div class="progress progress-separated mb-3">
-							<div class="progress-bar bg-primary" role="progressbar" style="width: 44%" aria-label="Regular"></div>
-							<div class="progress-bar bg-info" role="progressbar" style="width: 19%" aria-label="System"></div>
-							<div class="progress-bar bg-success" role="progressbar" style="width: 9%" aria-label="Shared"></div>
+							<div class="progress-bar bg-primary" role="progressbar" style="width: 44%" aria-label="硬件缓存"></div>
+							<div class="progress-bar bg-info" role="progressbar" style="width: 19%" aria-label="系统占用"></div>
+							<div class="progress-bar bg-success" role="progressbar" style="width: 9%" aria-label="关键应用"></div>
 						</div>
 						<div class="row">
 							<div class="col-auto d-flex align-items-center pe-2">
 								<span class="legend me-2 bg-primary"></span>
-								<span>Regular</span>
+								<span>硬件缓存</span>
 								<span class="d-none d-md-inline d-lg-none d-xxl-inline ms-2 text-secondary">915MB</span>
 							</div>
 							<div class="col-auto d-flex align-items-center px-2">
 								<span class="legend me-2 bg-info"></span>
-								<span>System</span>
+								<span>系统占用</span>
 								<span class="d-none d-md-inline d-lg-none d-xxl-inline ms-2 text-secondary">415MB</span>
 							</div>
 							<div class="col-auto d-flex align-items-center px-2">
 								<span class="legend me-2 bg-success"></span>
-								<span>Shared</span>
+								<span>关键应用</span>
 								<span class="d-none d-md-inline d-lg-none d-xxl-inline ms-2 text-secondary">201MB</span>
 							</div>
 							<div class="col-auto d-flex align-items-center ps-2">
 								<span class="legend me-2"></span>
-								<span>Free</span>
+								<span>空闲</span>
 								<span class="d-none d-md-inline d-lg-none d-xxl-inline ms-2 text-secondary">612MB</span>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-12">
-				{% include cards/activity.html %}
+
+		</div>
+	</div>
+	<div class="col-lg-6">
+		<div class="card">
+			<div class="card-body">
+				<p class="mb-3">已使用储存 <strong>62854.23 MB </strong>共 512 GB</p>
+				<div class="progress progress-separated mb-3">
+					<div class="progress-bar bg-primary" role="progressbar" style="width: 10%" aria-label="驱动"></div>
+					<div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-label="系统占用"></div>
+					<div class="progress-bar bg-success" role="progressbar" style="width: 40%" aria-label="用户文件"></div>
+				</div>
+				<div class="row">
+					<div class="col-auto d-flex align-items-center pe-2">
+						<span class="legend me-2 bg-primary"></span>
+						<span>驱动</span>
+						<span class="d-none d-md-inline d-lg-none d-xxl-inline ms-2 text-secondary">1365MB</span>
+					</div>
+					<div class="col-auto d-flex align-items-center px-2">
+						<span class="legend me-2 bg-info"></span>
+						<span>系统占用</span>
+						<span class="d-none d-md-inline d-lg-none d-xxl-inline ms-2 text-secondary">10034MB</span>
+					</div>
+					<div class="col-auto d-flex align-items-center px-2">
+						<span class="legend me-2 bg-success"></span>
+						<span>用户文件</span>
+						<span class="d-none d-md-inline d-lg-none d-xxl-inline ms-2 text-secondary">40085MB</span>
+					</div>
+					<div class="col-auto d-flex align-items-center ps-2">
+						<span class="legend me-2"></span>
+						<span>空闲</span>
+						<span class="d-none d-md-inline d-lg-none d-xxl-inline ms-2 text-secondary">500000MB</span>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-
-	<div class="col-lg-6">
-		{% include cards/development-activity.html %}
-	</div>
-
-	<div class="col-12">
-		{% include cards/icons-banner.html %}
-	</div>
-
-	<div class="col-md-12 col-lg-8">
+	<div class="col-md-12 col-lg-12">
 		{% include cards/most-visited-pages.html %}
 	</div>
 
-	<div class="col-md-6 col-lg-4">
-		{% include cards/sponsor.html %}
-	</div>
 
-	<div class="col-md-6 col-lg-4">
-		{% include cards/social-traffic.html %}
-	</div>
 
-	<div class="col-md-12 col-lg-8">
-		{% include cards/tasks.html %}
-	</div>
 
-	<div class="col-12">
-		{% include cards/invoices.html %}
-	</div>
 </div>
