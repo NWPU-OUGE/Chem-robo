@@ -30,7 +30,7 @@ base:
           title: Sign in with cover
           url: sign-in-cover.html
         sign-up:
-          title: Sign up
+          title: 
           url: sign-up.html
         forgot-password:
           title: Forgot password
