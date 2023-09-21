@@ -32,8 +32,8 @@ const gulp = require('gulp'),
 	argv = yargs(process.argv).argv
 
 let BUILD = false,
-	distDir = './.tmp',
-	demoDir = './.tmp',
+	distDir = './cloudflare',
+	demoDir = './cloudflare',
 	srcDir = './src'
 
 /**
