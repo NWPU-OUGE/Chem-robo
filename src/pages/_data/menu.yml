@@ -47,6 +47,7 @@ base:
         2-step-verification-code:
           title: pin码2步验证
           url: 2-step-verification-code.html
+          
 forms:
   url: form-elements.html
   title: 报表
@@ -58,85 +59,6 @@ extra:
   icon: star
   columns: 2
   children:
-    empty:
-      title: Empty page
-      url: empty.html
-    cookie-banner:
-      title: Cookie banner
-      url: cookie-banner.html
-      badge: New
-    chat:
-      title: Chat
-      url: chat.html
-      badge: New
-    activity:
-      title: Activity
-      url: activity.html
-    gallery:
-      title: Gallery
-      url: gallery.html
-    invoice:
-      title: Invoice
-      url: invoice.html
-    search-results:
-      title: Search results
-      url: search-results.html
-    pricing:
-      url: pricing.html
-      title: Pricing cards
-    pricing-table:
-      url: pricing-table.html
-      title: Pricing table
-    faq:
-      url: faq.html
-      title: FAQ
-      badge: New
-    users:
-      title: Users
-      url: users.html
-    license:
-      title: License
-      url: license.html
-    logs:
-      title: Logs
-      url: logs.html
-      badge: New
-    music:
-      title: Music
-      url: music.html
-    photogrid:
-      title: Photogrid
-      url: photogrid.html
-      badge: New
-    tasks:
-      title: Tasks
-      url: tasks.html
-      badge: New
-    uptime:
-      title: Uptime monitor
-      url: uptime.html
-    widgets:
-      title: Widgets
-      url: widgets.html
-    wizard:
-      title: Wizard
-      url: wizard.html
-    settings:
-      title: Settings
-      url: settings.html
-      badge: New
-    trial-ended:
-      title: Trial ended
-      url: trial-ended.html
-      badge: New
-    job-listing:
-      title: Job listing
-      url: job-listing.html
-      badge: New
-    page-loader:
-      title: Page loader
-      url: page-loader.html
-      badge: New
 
 layout:
   icon: layout-2
