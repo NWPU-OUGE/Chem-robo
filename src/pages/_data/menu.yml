@@ -14,120 +14,18 @@ base:
     accordion:
       title: 建图与导航
       url: accordion.html
-    authentication:
-      title: 授权(调试页面)
-      children:
-        sign-in:
-          title: 登录
-          url: sign-in.html
-        sign-in-link:
-          title: 登录链接
-          url: sign-in-link.html
-        sign-in-illustration:
-          title: 带说明登录
-          url: sign-in-illustration.html
-        sign-in-cover:
-          title: 带封面登录
-          url: sign-in-cover.html
-        sign-up:
-          title: 注册
-          url: sign-up.html
-        forgot-password:
-          title: 忘记密码
-          url: forgot-password.html
-        terms-of-service:
-          title: 服务条款
-          url: terms-of-service.html
-        auth-lock:
-          title: 锁定页面
-          url: auth-lock.html
-        2-step-verification:
-          title: 2步验证
-          url: 2-step-verification.html
-        2-step-verification-code:
-          title: pin码2步验证
-          url: 2-step-verification-code.html
-
-forms:
-  url: form-elements.html
-  title: 报表
-  title-long: 报表项目
-  icon: checkbox
-
 extra:
   title: 其他功能
   icon: star
   columns: 2
   children:
 
-layout:
-  icon: layout-2
-  title: 布局(测试用，即将去除)
-  columns: 2
-  children:
-    horizontal:
-      url: layout-horizontal.html
-      title: Horizontal
-    boxed:
-      url: layout-boxed.html
-      title: Boxed
-      badge: New
-    vertical:
-      url: layout-vertical.html
-      title: Vertical
-    vertical-transparent:
-      url: layout-vertical-transparent.html
-      title: Vertical transparent
-    vertical-right:
-      url: layout-vertical-right.html
-      title: Right vertical
-    condensed:
-      url: layout-condensed.html
-      title: Condensed
-    combo:
-      url: layout-combo.html
-      title: Combined
-    navbar-dark:
-      url: layout-navbar-dark.html
-      title: Navbar dark
-    navbar-sticky:
-      url: layout-navbar-sticky.html
-      title: Navbar sticky
-    navbar-overlap:
-      url: layout-navbar-overlap.html
-      title: Navbar overlap
-    rtl-mode:
-      url: layout-rtl.html
-      title: RTL mode
-    fluid:
-      url: layout-fluid.html
-      title: Fluid
-    fluid-vertical:
-      url: layout-fluid-vertical.html
-      title: Fluid vertical
-
-icons:
-  title: "%ICONS_COUNT% 图标概览（调试用）"
-  icon: ghost
-  url: icons.html
-
-emails:
-  title: "邮件相关"
-  icon: mail-opened
-  url: emails.html
-
 help:
   title: 请求帮助
   icon: lifebuoy
   children:
-    docs:
-      title: 网站文档
-      #url: https://tabler.io/docs
-    changelog:
-      #url: changelog.html
-      title: 网站更新日志
     source-code:
-      #url: https://github.com/tabler/tabler
+      url: https://github.com/NWPU-OUGE/Chem-robo#/
       title: 网站源代码
     sponsor:
       color: pink
